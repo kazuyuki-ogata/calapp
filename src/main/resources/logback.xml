@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE logback>
+<configuration>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{yyyyMMdd HH:mm:ss.SSS} [%t] %-5le %lo{35} - %msg %n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="log" level="debug" />
+	<root>
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>

@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 2rem;
+}
+
+#top {
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	padding: 0 10px;
+	line-height: 40px;
+	font-size: 2rem;
+}
+
+#calendar {
+	margin: 40px auto;
+	padding: 0 10px;
+}
+
+.fc-sun {
+	color: Crimson;
+}
+
+.fc-sat {
+	color: Blue;
+}
+
+.fc {
+	direction: ltr;
+	text-align: center;
+}
+
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+	float: inherit;
+	font-size: 8rem;
+}
