@@ -1,8 +1,5 @@
 package javax.activation.calapp.app;
 
-import java.util.List;
-
-import javax.activation.calapp.domain.model.Event;
 import javax.activation.calapp.domain.service.CalService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,12 +16,7 @@ public class CalendarController {
 	CalService calService;
 
 	@RequestMapping(method = RequestMethod.GET)
-	public String test(Model model) {
-		List<Event> list = calService.getUserEvents(1L);
-		System.out.println(list);
-		model.addAttribute("name", "API");
-		model.addAttribute("get", "GET /cal");
-		model.addAttribute("post", "POST /cal");
+	public String show(Model model) {
 		return "cal/index";
 	}
 

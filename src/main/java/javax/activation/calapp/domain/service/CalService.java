@@ -1,5 +1,6 @@
 package javax.activation.calapp.domain.service;
 
+import java.sql.Date;
 import java.util.List;
 
 import javax.activation.calapp.domain.model.Event;
@@ -18,6 +19,33 @@ public class CalService {
 
 	public List<Event> getUserEvents(Long userId) {
 		return eventRepository.findByUserId(userId);
+	}
+
+	public String addEvent(Long userId, String title, String start) {
+		Event event = new Event();
+		event.setUserId(userId);
+		event.setStart(Date.valueOf(start));
+		event.setTitle(title);
+		eventRepository.save(event);
+		return "success";
+	}
+
+	public String modEvent(Long userId, String eventId, String title, String start) {
+		Event event = new Event();
+		event.setEventId(Long.valueOf(eventId));
+		event.setUserId(userId);
+		event.setStart(Date.valueOf(start));
+		event.setTitle(title);
+		eventRepository.save(event);
+		return "success";
+	}
+
+	public String delEvent(Long userId, String eventId) {
+		Event event = new Event();
+		event.setEventId(Long.valueOf(eventId));
+		event.setUserId(userId);
+		eventRepository.delete(event);
+		return "success";
 	}
 
 }
