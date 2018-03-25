@@ -53,8 +53,7 @@
 				<li><img id="event2" class="nav-icon" src="/icon/event.png"
 					th:src="@{/icon/event.png}" alt="学校イベント" title="学校イベント"></img></li>
 			</ul>
-			<p id="currentTime" class="navbar-text navbar-right">
-			</p>
+			<p id="currentTime" class="navbar-text navbar-right"></p>
 		</div>
 	</nav>
 
@@ -73,6 +72,35 @@
 	<div id="modal-event2" data-izimodal-title="学校イベント">
 		<img id="event2" src="/image/school.jpg" th:src="@{/image/school.jpg}"
 			alt="学校イベント" title="学校イベント"></img>
+	</div>
+
+	<div id="modal-detail" data-izimodal-title="スケジュール登録">
+		<section>
+			<input id="start" type="text" size="20" maxlength="10"
+				placeholder="日付" />
+			<hr />
+			<p>タイトル</p>
+			<select id="title" style="width: 200px">
+				<option value="birthday">誕生日</option>
+				<option value="convention">大会</option>
+				<option value="drink">飲み会</option>
+				<option value="businessTrip">出張</option>
+				<option value="barber">床屋</option>
+				<option value="hospital">病院</option>
+				<option value="eatingOut">外食</option>
+				<option value="trip">旅行</option>
+				<option value="other">その他</option>
+			</select>
+			<hr />
+			<input id="detail" type="text" size="20" maxlength="10"
+				placeholder="詳細" />
+			<hr />
+			<footer>
+				<button data-izimodal-close="">キャンセル</button>
+				<button id="regist" class="submit">登録</button>
+			</footer>
+			<input id="eventId" type="hidden" value="" />
+		</section>
 	</div>
 </body>
 </html>

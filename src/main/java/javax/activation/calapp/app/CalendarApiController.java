@@ -27,14 +27,14 @@ public class CalendarApiController {
 
 	@RequestMapping(value = "/events/add")
 	@ResponseBody
-	public String addEvent(@RequestParam String title, @RequestParam String start) {
-		return calService.addEvent(1L, title, start);
+	public String addEvent(@RequestParam String title, @RequestParam String start, @RequestParam String detail) {
+		return calService.addEvent(1L, title, start, detail);
 	}
 
 	@RequestMapping(value = "/events/mod")
 	@ResponseBody
-	public String modEvent(@RequestParam String eventId, @RequestParam String title, @RequestParam String start) {
-		return calService.modEvent(1L, eventId, title, start);
+	public String modEvent(@RequestParam String eventId, @RequestParam String title, @RequestParam String start, @RequestParam String detail) {
+		return calService.modEvent(1L, eventId, title, start, detail);
 	}
 
 	@RequestMapping(value = "/events/del")
