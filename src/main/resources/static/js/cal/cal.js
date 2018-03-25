@@ -84,7 +84,7 @@ $(document).ready(function() {
 					detail : $("#detail").val(),
 				},
 			}).always(function() {
-				$('#modal-detail').iziModal('close');
+				location.reload();
 			});
 		}
 	});
