@@ -1,0 +1,41 @@
+-- 前提
+以下のマスタは取込後、エクスポートされるが
+　・数字項目なのに小数点以下の数字が存在する
+　・数字項目なのに値が設定されていない
+状況が存在している
+トランケートして上記テーブルのデータをインポートする場合、
+以下のSQLを実行してデータ補正を行ってください。
+
+
+-- 0.DDL作成
+ENT_A3_06?01_mt_syusyokugo_temp.sql
+ENT_A3_07_01_mt_comment_temp.sql
+ENT_A3_08_01_mt_seibunryo_temp.sql
+ENT_A3_15_01_mt_shinryo_koi_fuka_temp.sql
+
+
+-- 1.truncate
+truncate table milscm4.mt_syusyokugo;
+truncate table milscm4.mt_comment;
+truncate table milscm4.mt_seibunryo;
+truncate table milscm4.mt_shinryo_koi_fuka;
+
+
+-- 2.COPY文
+テキストファイル名を変更し実行すること
+\copy milscm4.mt_syusyokugo_temp from 'C:\work\import\mt_syusyokugo_temp_20230801.txt' (encoding 'UTF8');
+\copy milscm4.mt_comment_temp from 'C:\work\import\mt_comment_20230801.txt' (encoding 'UTF8');
+\copy milscm4.mt_seibunryo_temp from 'C:\work\import\mt_seibunryo_20231130.txt' (encoding 'UTF8');
+\copy milscm4.mt_shinryo_koi_fuka_temp from 'C:\work\import\mt_shinryo_koi_fuka_20231220.txt' (encoding 'UTF8');
+
+
+-- 3.SQL実行
+01_修飾語マスタ取込用.sql
+02_コメントマスタ取込用.sql
+03_成分量マスタ取込用.sql
+04_診療行為付加情報マスタ取込用.sql
+
+最後に、「05_DROP.sql」を実行しテーブルを削除してください。
+
+
+以上
