@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02085638-a627-4e00-a009-afff2623bd90" name="変更" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/【説明資料】フィージビリティ調査データマートとは-20231208-01.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/SQL実装ガイド.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_iyakuhin.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_iyakuhin_brand.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_iyakuhin_ippan_name.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_iyakuhin_sales_kaisha.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_maker.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_price.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_shippei.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_tokutei_kizai.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_yakko_atc1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_yakko_atc2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_yakko_atc3.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_yakko_atc4.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/mt_yakko_atc5.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新時_確認用SQL/重複確認SQL.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/00_DDL/ENT_A3_06_01_mt_syusyokugo_temp.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/00_DDL/ENT_A3_07_01_mt_comment_temp.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/00_DDL/ENT_A3_08_01_mt_seibunryo_temp.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/00_DDL/ENT_A3_15_01_mt_shinryo_koi_fuka_temp.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/01_SQL/01_修飾語マスタ取込用.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/01_SQL/02_コメントマスタ取込用.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/01_SQL/03_成分量マスタ取込用.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/01_SQL/04_診療行為付加情報マスタ取込用.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/01_SQL/05_DROP.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/02_手順書/運用手順書_開発環境マスタ登録.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/マスタ更新（COPY文にて取込不可の対応）/99_old/手順.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/本番環境取込結果格納用DDL/【DDL】本番環境取込結果格納用.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/運用フロー_マスタ更新.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/運用手順書_06_マスタ取込後確認.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/マスタ作成/運用手順書_99_開発環境マスタ登録.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/検査.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/貼り付け用.xlsx" beforeDir="false" />
-    </list>
+    <list default="true" id="02085638-a627-4e00-a009-afff2623bd90" name="変更" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,16 +25,12 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2T1Byvs5cNMIq6qxxENlQJjZ7Z8" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -421,15 +382,7 @@
       <option name="project" value="LOCAL" />
       <updated>1714642603856</updated>
     </task>
-    <task id="LOCAL-00043" summary="test">
-      <option name="closed" value="true" />
-      <created>1714645742046</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1714645742046</updated>
-    </task>
-    <option name="localTasksCounter" value="44" />
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,7 +397,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
