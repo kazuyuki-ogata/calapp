@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02085638-a627-4e00-a009-afff2623bd90" name="変更" comment="test" />
+    <list default="true" id="02085638-a627-4e00-a009-afff2623bd90" name="変更" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,18 +27,21 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2T1Byvs5cNMIq6qxxENlQJjZ7Z8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/project&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="デフォルトタスク">
@@ -45,14 +50,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690200964208</updated>
-    </task>
-    <task id="LOCAL-00001" summary="test">
-      <option name="closed" value="true" />
-      <created>1690798435596</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1690798435596</updated>
     </task>
     <task id="LOCAL-00002" summary="test">
       <option name="closed" value="true" />
@@ -382,7 +379,71 @@
       <option name="project" value="LOCAL" />
       <updated>1714642603856</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="test">
+      <option name="closed" value="true" />
+      <created>1718372457957</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1718372457958</updated>
+    </task>
+    <task id="LOCAL-00044" summary="test">
+      <option name="closed" value="true" />
+      <created>1720787906850</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1720787906850</updated>
+    </task>
+    <task id="LOCAL-00045" summary="test">
+      <option name="closed" value="true" />
+      <created>1722313710611</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1722313710612</updated>
+    </task>
+    <task id="LOCAL-00046" summary="test">
+      <option name="closed" value="true" />
+      <created>1722415251079</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1722415251079</updated>
+    </task>
+    <task id="LOCAL-00047" summary="test">
+      <option name="closed" value="true" />
+      <created>1723525217446</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1723525217446</updated>
+    </task>
+    <task id="LOCAL-00048" summary="test">
+      <option name="closed" value="true" />
+      <created>1723528952349</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1723528952349</updated>
+    </task>
+    <task id="LOCAL-00049" summary="test">
+      <option name="closed" value="true" />
+      <created>1723698408159</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1723698408159</updated>
+    </task>
+    <task id="LOCAL-00050" summary="test">
+      <option name="closed" value="true" />
+      <created>1726122807628</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1726122807628</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
